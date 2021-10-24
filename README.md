@@ -20,12 +20,17 @@
 
     - `styled-components`: Help me keep relevant CSS close to the components they're relevant to.
 
-1. Some of my functionality was limited by what's available in the github API (i.e. not adding sort parameters in the url). I chose to go with just sorting the intially returned objects in order to focus on other parts of the project.
+5. Some of my functionality was limited by what's available in the github API (i.e. not adding sort parameters in the url). I chose to go with just sorting the intially returned objects in order to focus on other parts of the project.
 
-5. Things I'd do with more time
+6. Things I'd do with more time
     - Better error/state handling
     - Tooltips/help text for relevant symbols (i.e. emojis next to the repo stats)
-    - Consistend documentation between components
+    - Consistent documentation between components
     - Expose more relevant commit and repo information
     - More accessibility tags
     - Tests
+
+7. Features I'd like to add
+    - Autocomplete for search (not sure the github API has a partial complete search for organizations)
+    - Loading states
+    - More "table like" data display (I think there's general UX optimizations if the experience is a table with clickable headers for sorting rather than just a dropdown unidirectional sort list.
